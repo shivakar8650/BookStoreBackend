@@ -1,0 +1,15 @@
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\bin\Debug\netcoreapp3.1\BookStoreManager.deps.json
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\bin\Debug\netcoreapp3.1\BookStoreManager.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\bin\Debug\netcoreapp3.1\BookStoreManager.pdb
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\bin\Debug\netcoreapp3.1\BookStoreModel.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\bin\Debug\netcoreapp3.1\BookStoreRepository.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\bin\Debug\netcoreapp3.1\BookStoreRepository.pdb
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\bin\Debug\netcoreapp3.1\BookStoreModel.pdb
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.csproj.AssemblyReference.cache
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.AssemblyInfoInputs.cache
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.AssemblyInfo.cs
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.csproj.CoreCompileInputs.cache
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.csproj.CopyComplete
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreManager\obj\Debug\netcoreapp3.1\BookStoreManager.pdb
