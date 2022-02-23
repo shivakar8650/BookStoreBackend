@@ -43,7 +43,8 @@ namespace BookStoreBack
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IUserManager, UserManager>();
 
-
+            services.AddTransient<IBookManager, BookManager>();
+            services.AddTransient<IBookRepository, BookRepository>();
             services.Configure<Setting>(
              option =>
              {
@@ -106,23 +107,18 @@ namespace BookStoreBack
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-               
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookstoreApp v1"));
             }
-        
-
+    
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
-
-            app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "BookstoreApp v1"));
+            });         
           
         }
     }

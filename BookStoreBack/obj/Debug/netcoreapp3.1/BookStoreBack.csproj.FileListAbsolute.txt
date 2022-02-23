@@ -60,3 +60,9 @@ C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp
 C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\BookStoreModel.pdb
 C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\BookStoreRepository.pdb
 C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\obj\Debug\netcoreapp3.1\BookStoreBack.csproj.CopyComplete
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\Experimental.System.Messaging.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\CloudinaryDotNet.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\Microsoft.Extensions.WebEncoders.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+C:\Users\prabhakar\source\repos\BookStoreBack\BookStoreBack\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll

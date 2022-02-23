@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "cRUEH0Lo5jX7NWRyt7O01GcpUeZ5CYjCkbEx7Gyi5pt/YHpHBgn+mHVo0uc5ZkKpFCSygoUPaOlYTQguznfz5Q==",
+  "dgSpecHash": "4ZPTeRg3BrRC5MRDH36a7NMy3Fa6oXJ+HMTDYxW80kmUsksa93m/gkvUlnJ2qE6abU07lCKhHGaMFEuoQMOlHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\prabhakar\\source\\repos\\BookStoreBack\\BookStoreModel\\BookStoreModel.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\prabhakar\\.nuget\\packages\\experimental.system.messaging\\1.1.0\\experimental.system.messaging.1.1.0.nupkg.sha512",
+    "C:\\Users\\prabhakar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\prabhakar\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.16.0\\microsoft.identitymodel.jsonwebtokens.6.16.0.nupkg.sha512",
+    "C:\\Users\\prabhakar\\.nuget\\packages\\microsoft.identitymodel.logging\\6.16.0\\microsoft.identitymodel.logging.6.16.0.nupkg.sha512",
+    "C:\\Users\\prabhakar\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.16.0\\microsoft.identitymodel.tokens.6.16.0.nupkg.sha512",
     "C:\\Users\\prabhakar\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
-    "C:\\Users\\prabhakar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\prabhakar\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.16.0\\system.identitymodel.tokens.jwt.6.16.0.nupkg.sha512",
+    "C:\\Users\\prabhakar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\prabhakar\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

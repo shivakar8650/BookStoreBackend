@@ -29,5 +29,43 @@ namespace BookStoreManager.Services
             }
         }
 
+       public async Task<LoginResponse> Login(LoginModel login)
+        {
+            try
+            {
+                return await this.repository.Login(login);
+
+            }
+            catch(Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async  Task<bool> Forget(ForgetModel fmodel)
+        {
+            try
+            {
+                return await this.repository.Forget(fmodel);
+
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async Task<RegisterModel> Reset(ResetModel reset)
+        {
+            try
+            {
+                return await this.repository.Reset(reset);
+
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }
