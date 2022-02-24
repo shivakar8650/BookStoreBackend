@@ -45,6 +45,10 @@ namespace BookStoreBack
 
             services.AddTransient<IBookManager, BookManager>();
             services.AddTransient<IBookRepository, BookRepository>();
+
+            services.AddTransient<ICartManager, CartManager>();
+            services.AddTransient<ICartRepository, CartRepository>();
+
             services.Configure<Setting>(
              option =>
              {
