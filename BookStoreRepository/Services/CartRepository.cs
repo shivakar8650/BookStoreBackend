@@ -43,6 +43,50 @@ namespace BookStoreRepository.Services
                 throw new Exception(e.Message);
             }
         }
+
+        public IEnumerable<CartModel> GetCart()
+        {
+            return Cart.Find(FilterDefinition<CartModel>.Empty).ToList();
+
+        }
+
+        public async Task<CartModel> updateQuantity(CartModel qty)
+        {    
+                try
+                {
+                    var valid = await this.Cart.Find(x => x.cartID == qty.cartID).FirstOrDefaultAsync();
+                    if (valid != null)
+                    {
+                        await this.Cart.UpdateOneAsync(x => x.cartID == qty.cartID,
+                            Builders<CartModel>.Update.Set(x => x.quantity, qty.quantity));
+                    var response = await this.Cart.Find(x => x.cartID == qty.cartID).FirstOrDefaultAsync();
+                    return response;
+
+                    }
+                    return null;
+
+                }
+                catch (ArgumentNullException e)
+                {
+                    throw new Exception(e.Message);
+                }
+
+        }
+
+        public async Task<bool> deleteCart(CartModel del)
+        {
+            try
+            {
+                await this.Cart.FindOneAndDeleteAsync(x => x.cartID == del.cartID);
+                return true;
+
+            }
+            catch (ArgumentNullException e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
     }
 
 

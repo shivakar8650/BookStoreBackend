@@ -10,5 +10,9 @@ namespace BookStoreManager.Interface
     {
 
         Task<CartModel> AddtoCart(CartModel cart);
+        IEnumerable<CartModel> GetCart();
+
+        Task<bool> deleteCart(CartModel del);
+        Task<CartModel> updateQuantity(CartModel qty);
     }
 }

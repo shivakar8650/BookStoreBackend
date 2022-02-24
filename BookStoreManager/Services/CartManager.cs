@@ -26,6 +26,42 @@ namespace BookStoreManager.Services
                 throw new Exception(e.Message);
             }
         }
+
+        public IEnumerable<CartModel> GetCart()
+        {
+            try
+            {
+                return this.repo.GetCart();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async Task<CartModel> updateQuantity(CartModel qty)
+        {
+            try
+            {
+                return await this.repo.updateQuantity( qty);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async Task<bool> deleteCart(CartModel del)
+        {
+            try
+            {
+                return await this.repo.deleteCart(del);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
         
 }
