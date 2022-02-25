@@ -26,5 +26,29 @@ namespace BookStoreManager.Services
                 throw new Exception(e.Message);
             }
         }
+
+       public  IEnumerable<WishListModel> GetWishlist()
+        {
+            try
+            {
+                return this.repo.GetWishlist();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async Task<bool> DeleteWishlist(WishListModel del)
+        {
+            try
+            {
+                return await this.repo.DeleteWishlist(del);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }

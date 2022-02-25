@@ -9,5 +9,9 @@ namespace BookStoreManager.Interface
     public interface IWishListManager
     {
         Task<WishListModel> Addinwishlist(WishListModel wish);
+
+        IEnumerable<WishListModel> GetWishlist();
+
+        Task<bool> DeleteWishlist(WishListModel del);
     }
 }

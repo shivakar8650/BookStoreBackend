@@ -43,5 +43,26 @@ namespace BookStoreRepository.Services
                 throw new Exception(e.Message);
             }
         }
+
+
+        public IEnumerable<WishListModel> GetWishlist()
+        {
+            return WishList.Find(FilterDefinition<WishListModel>.Empty).ToList();
+        }
+
+
+        public async Task<bool> DeleteWishlist(WishListModel del)
+        {
+            try
+            {
+                await this.WishList.FindOneAndDeleteAsync(x => x.wishlistID == del.wishlistID);
+                return true;
+
+            }
+            catch (ArgumentNullException e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }
