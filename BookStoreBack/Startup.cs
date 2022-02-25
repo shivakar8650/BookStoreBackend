@@ -58,6 +58,9 @@ namespace BookStoreBack
             services.AddTransient<IOrderManager, OrderManager>();
             services.AddTransient<IOrderRepository, OrderRepository>();
 
+            services.AddTransient<IFeedbackManager, FeedbackManager>();
+            services.AddTransient<IFeedbackRepository, FeedbackRepository>();
+
             services.Configure<Setting>(
              option =>
              {
