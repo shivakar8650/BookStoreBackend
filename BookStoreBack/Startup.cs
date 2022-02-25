@@ -52,6 +52,12 @@ namespace BookStoreBack
             services.AddTransient<IWishListManager, WishListManager>();
             services.AddTransient<IWishListRepository, WishListRepository>();
 
+            services.AddTransient<IAddressManager, AddressManager>();
+            services.AddTransient<IAddressRepository, AddressRepository>();
+
+            services.AddTransient<IOrderManager, OrderManager>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
+
             services.Configure<Setting>(
              option =>
              {
