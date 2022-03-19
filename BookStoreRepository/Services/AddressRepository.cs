@@ -57,9 +57,9 @@ namespace BookStoreRepository.Services
                 if (valid != null)
                 {
                     await this.Address.UpdateOneAsync(x => x.addressID == update.addressID,
-                        Builders<AddressModel>.Update.Set(x => x.fullAddress, update.fullAddress)
+                        Builders<AddressModel>.Update.Set(x => x.address, update.address)
                         .Set(x => x.city, update.city)
-                        .Set(x => x.state, update.state)
+                        .Set(x => x.locality, update.locality)
                         .Set(x => x.pinCode, update.pinCode));
                     var response = await this.Address.Find(x => x.addressID == update.addressID).FirstOrDefaultAsync();
                     return response;
@@ -77,7 +77,7 @@ namespace BookStoreRepository.Services
 
         public async Task<AddressModel> GetByAddressType(string addtypeId)
         {
-            return await this.Address.Find(x => x.addTypeID == addtypeId).FirstOrDefaultAsync();
+            return await this.Address.Find(x => x.type == addtypeId).FirstOrDefaultAsync();
         }
 
         public async Task<bool> DeleteAddress(AddressModel del)

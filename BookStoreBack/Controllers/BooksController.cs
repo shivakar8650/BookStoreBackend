@@ -138,7 +138,7 @@ namespace BookStoreBack.Controllers
         }
 
         [HttpDelete]
-      /*  [Route("deletebook")]*/
+     
         public async Task<IActionResult> DeleteBook(string bookId)
         {
             try

@@ -18,10 +18,17 @@ namespace BookStoreModel
         public virtual RegisterModel RegisterModel { get; set; }
 
         [ForeignKey("AddressType")]
-        public string addTypeID { get; set; }
-        public string fullAddress { get; set; }
+        public string fullname { get; set; }
+        public string mobile { get; set; }
+        public string pinCode { get; set; }
+        public string locality { get; set; }
+     
+        public string address { get; set; }
         public string city { get; set; }
-        public string state { get; set; }
-        public double pinCode { get; set; }
+        public string landmark { get; set; }
+
+        public string type { get; set; }
+
+
     }
 }
